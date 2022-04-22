@@ -1,11 +1,15 @@
 {
   "name": "my_launch_app",
   "version": "1.0.0",
-  "description": "\"creacion de proyecto\"",
+  "description": "\"mi primer package en un proyecto\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Einar Davalos",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
